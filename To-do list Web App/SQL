@@ -1,0 +1,25 @@
+1)
+SELECT id
+FROM actors 
+WHERE  first_name LIKE "Chris%"
+And last_name = "Miller"
+ORDER BY film_count DESC, id ASC
+LIMIT 1;
+2)
+SELECT m.name, m.year
+FROM movies m 
+JOIN roles r ON r.movie_id = m.id
+WHERE r.actor_id = $actor_id
+ORDER BY m.year DESC, m.name;
+
+3)
+SELECT DISTINCT m.name, m.year
+FROM movies m 
+JOIN roles r1 ON r1.movie_id = m.id
+JOIN actors a1 ON r1.actor_id = a1.id
+JOIN roles r2 ON r2.movie_id = m.id
+JOIN actors a2 ON r2.actor_id = a2.id
+WHERE a1.id ="22591"
+AND a2.first_name = "Bill"
+AND a2.last_name = "Paxton";
+bill paxton's id 366173

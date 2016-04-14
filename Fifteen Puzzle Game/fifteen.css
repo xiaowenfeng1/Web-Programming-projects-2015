@@ -1,0 +1,36 @@
+ /*
+	Xiaowen Feng
+	CSE 154 AA
+	Assignment 7
+	
+	This is the CSS style sheet of a site that contains a puzzle game called "Fifteen". 
+	It includes the general style of the page and a hover style for a movable tile
+*/
+
+ body, #shufflebutton {
+ 	font-family: cursive;
+ 	font-size: 14pt;
+ 	text-align: center;
+ }
+
+ .tile {
+ 	border: solid 5px black;
+ 	width: 90px;
+ 	height: 90px;
+ 	position: absolute;
+ 	font-size: 40pt;
+ 	background-image: url(background.jpg); 
+ }
+
+ #puzzlearea {
+ 	width: 400px;
+ 	height: 400px;
+ 	position: relative;
+ 	margin: 0 auto;
+ }
+
+ .movable {
+ 	border-color: red;
+ 	color: red;
+ 	cursor: pointer;
+ }

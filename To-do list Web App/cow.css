@@ -1,0 +1,46 @@
+/*
+	Xiaowen Feng
+	CSE 154 
+	Section AA
+	May 6, 2015
+	Assignment 4
+	CSS Style Sheet for Remember the Cow page 
+*/
+fieldset, input {
+	border: 1px solid white;
+	border-radius: 8px;
+	box-shadow: inset 0 1px 2px gray;
+}
+
+fieldset {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5em;
+	width: 50%;
+}
+
+fieldset div {
+	margin: 0.5em;
+}
+
+fieldset strong {
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	width: 45%;
+}
+
+input[type = "submit"] {
+	font-weight: bold;
+	margin-left: 70%;
+	border: 1px solid #005AB4;
+	box-shadow: 1px 1px 2px gray;
+}
+
+#main p {
+	text-align: center;
+}
+
+span {
+	text-decoration: underline;
+}

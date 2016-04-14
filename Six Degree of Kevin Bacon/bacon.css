@@ -1,0 +1,48 @@
+#main {
+	text-align: center;
+	background-color: white;
+}
+
+#frame, table {
+	width: 90%;
+}
+
+#banner {
+	color: white;
+}
+
+h1, form{
+	margin: 1em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+}
+
+#banner, #w3c {
+	background-color: #404040;
+}
+
+form {
+	width: 22em;
+}
+
+#frame, form, table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table {
+	border-collapse: collapse;
+	border: #dad9d4 1px solid;
+}
+
+body, tr:nth-child(odd) {
+	background-color: #dad9d4;
+}
+
+#banner, #w3c, #main {
+	padding: 1em;
+}
